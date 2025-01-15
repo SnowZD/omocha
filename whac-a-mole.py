@@ -139,4 +139,5 @@ def Generate_Random(dif):
 
 Start_Button.config(command=Game_Start)
 
-window.mainloop()
+if __name__ == "__main__":
+    window.mainloop()
